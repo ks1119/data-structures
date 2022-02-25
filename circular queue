@@ -48,7 +48,7 @@ void display()
     {
         if(rear>front)
         {
-            for(i=front;i<=rear;i++)
+            for(i=front;i<rear;i++)
             {
                 printf("%d\n",q[i]);
             }
@@ -116,4 +116,3 @@ Enter the choice3
 22
 32
 42
-0
