@@ -42,7 +42,7 @@ void display()
     }
     else
     {
-        for(int i=rear;i>=front;i--)
+        for(int i=front;i<rear;i++)
         {
             printf("%d\n",queue[i]);
         }
@@ -71,16 +71,15 @@ void main ()
 
 output:
 Enter the choice1
-Enter the element12
+Enter the element3
 Enter the choice1
-Enter the element22
+Enter the element4
 Enter the choice1
-Enter the element21
+Enter the element5
 Enter the choice2
 Enter the choice3
-0
-21
-22
+4
+5
 
 //operations on linear/simple queue using SLL
 #include<stdio.h>
